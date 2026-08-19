@@ -72,7 +72,7 @@ def batch_compress_pdfs(folder_path, compression_level=3):
     print(f"All done! You can find your compressed files here: {output_dir}")
 
 # Your specific folder path
-my_folder = r"C:\Users\admin\Downloads\SOP"
+my_folder = r"Your PDF Directory"
 
 # Run the batch process
 batch_compress_pdfs(my_folder, compression_level=3)
